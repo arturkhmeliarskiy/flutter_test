@@ -1,0 +1,34 @@
+name: blocs
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  bloc_concurrency: ^0.2.0
+  injectable: ^1.5.3
+  file_picker: ^5.2.4
+  freezed_annotation: ^1.0.0
+  flutter_bloc: ^8.0.1
+  repositories:
+    path: ../repositories
+  models:
+    path: ../models
+  shared:
+    path: ../shared
+  analyzer: ^3.4.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^1.0.0
+  build_runner: ^2.1.5
+  injectable_generator: ^1.5.3
+
+  flutter_lints: ^2.0.1

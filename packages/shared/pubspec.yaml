@@ -1,0 +1,15 @@
+name: shared
+version: 1.0.0
+description: The Dart analyzer settings and best practices used internally at Google.
+publish_to: none
+
+environment:
+  sdk: ">=2.16.1 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
